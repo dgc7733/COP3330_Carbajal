@@ -10,7 +10,7 @@ public class Sphere implements Shape,Shape3D {
     public Sphere(double radius) {
         super();
         this.radius = radius;
-        this.name="sphere";
+        this.name   =  "sphere";
     }
 
 
