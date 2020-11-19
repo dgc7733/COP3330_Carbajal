@@ -14,10 +14,10 @@ public class App {
 
     public static void displayMainMenu()//displays the main menu
     {
-        System.out.print("Main Menu%n---------");
-        System.out.print("1) create a new list");
-        System.out.print("2) load an existing list");
-        System.out.print("3) quit");
+        System.out.println("Main Menu\n---------");
+        System.out.println("1) create a new list");
+        System.out.println("2) load an existing list");
+        System.out.println("3) quit");
 
     }
 
