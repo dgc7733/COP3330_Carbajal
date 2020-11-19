@@ -4,7 +4,9 @@ public class App {
     public static void main(String[] args){
 
          displayMainMenu();
-
+         mainMenuTaskChoice();
+         ListOperationMenu();
+         ListOperatioMenuChoice();
 
         }
 
@@ -21,7 +23,7 @@ public class App {
 
 
 
-        public void mainMenuTaskChoice(){
+        public static void mainMenuTaskChoice(){
             Scanner input = new Scanner(System.in);
             int choice = input.nextInt();
             if (choice != 3) {
@@ -47,7 +49,7 @@ public class App {
         }
 
 
-        public void ListOperationMenu(){
+        public static void ListOperationMenu(){
             System.out.println("List Operation Menu");
             System.out.println("---------");
             System.out.println("1) view the list");
@@ -60,7 +62,7 @@ public class App {
             System.out.println("8) quit to the main menu");
         }
 
-        public void ListOperationMenuChoice(){
+        public static void ListOperationMenuChoice(){
             Scanner input = new Scanner(System.in);
             int choice = input.nextInt();
 
