@@ -6,7 +6,7 @@ public class App {
          displayMainMenu();
          mainMenuTaskChoice();
          ListOperationMenu();
-         ListOperatioMenuChoice();
+         ListOperationMenuChoice();
 
         }
 
